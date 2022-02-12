@@ -10,6 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>"
     <link rel="stylesheet" href="src/style.css"/>
     <title>hello weather!</title>
   </head>
@@ -19,10 +20,10 @@
      <div class="weather-app">
          <div class="overview">
        
-          <h1>Wien</h1>
+          <h1 id="city"></h1>
           <ul>
             <li>Sonntag 11:00</li>
-            <li>Bewölkt</li>
+            <li id="description"></li>
           </ul>
           </div>
           <div class="row">
@@ -33,16 +34,18 @@
                   alt="cloudy"
                   class="float-left"
                 />
-                <div class="float-left"><strong>7</strong>
+                <div class="float-left"><strong></strong>
+                  <strong id="temperature"></strong>
                     <span class="units">°C <a href="#">°F</a></span></div>
               </div>
             </div>
 
             <div class="col-6">
               <ul>
-                <li>Niederschlag: 0%</li>
-                <li>Luftfeuchte: 48%</li>
-                <li>Wind: 21 km/h</li>
+                
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span>km/h</li>
+                <li></li>
               </ul>
             </div>
           </div>
