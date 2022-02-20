@@ -10,74 +10,95 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>"
-    <link rel="stylesheet" href="src/style.css"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    "
+    <link rel="stylesheet" href="src/style.css" />
     <title>hello weather!</title>
   </head>
   <body>
     <div class="container">
-     <div class="weather-app-wrapper">
-     <div class="weather-app">
-       <form id="search-form" class="mb-4">
-         <div class="row">
-           <div class="col-9">
-           <input type="search" 
-         placeholder="Type a city.." 
-         class="form-control"
-         id="city-input"
-         />
-         </div>
-         
-           <div class="col-3">
-           <input type="submit" value="Search" class="btn btn-primary w-100"
-         />
-          </div>
-          </div>
-        </form>
-      
-         <div class="overview">
-       
-          <h1 id="city"></h1>
-          <ul>
-            <li id="date">Last updated at <span id="date"></span></li>
-            <li id="description"></li>
-          </ul>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form id="search-form" class="mb-4">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Type a city.."
+                  class="form-control"
+                  id="city-input"
+                />
+              </div>
+
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-100"
+                />
+              </div>
+            </div>
+          </form>
+
+          <div class="overview">
+            <h1 id="city"></h1>
+            <ul>
+              <li id="date">Last updated at <span id="date"></span></li>
+              <li id="description"></li>
+            </ul>
           </div>
           <div class="row">
             <div class="col-6">
               <div class="clearfix weather-temperature">
-                <img
-                  src=""
-                  alt="Cloudy"
-                  id="icon"
-                  class="float-left"
-                />
-                <div class="float-left"><strong></strong>
+                <img src="" alt="Cloudy" id="icon" class="float-left" />
+                <div class="float-left">
+                  <strong></strong>
                   <strong id="temperature"></strong>
-                    <span class="units"
-                    >
-                     <a href="#" id="celsius-link" class="active">°C</a>
-                     <a href="#" id="fahrenheit-link">°F</a></span></div>
+                  <span class="units">
+                    <a href="#" id="celsius-link" class="active">°C</a>
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
+                </div>
               </div>
             </div>
 
             <div class="col-6">
               <ul>
-                
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span>km/h</li>
-                <li></li>
               </ul>
             </div>
           </div>
+          <div class="weather-forecast">
+            <div class="row">
+              <div class="col-2">Thu </div>
+                <div class="weather-forecast-date">
+                  Thu
+                  <img src="http://openweathermap.org/img/wn/01d@2x.png"
+                   alt = ""
+                   width="36"/>
+                
+                   
+
+                </div>
+
+            
+                <div class="weather-forecast-temperatures">
+                 
+                  <span class="weather-forecast-temperature-max"> 18° </span>
+                  <span class="weather-forecast-temperature-min"> 12° </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <small>
+            <a href="https://github.com/katpol/hello-weather" target="_blank"
+              >Open-source code, by polmanova</a
+            >
+          </small>
         </div>
-        <small>
-          <a href="https://github.com/katpol/hello-weather" target="_blank"
-            >Open-source code, by polmanova</a
-          >
-        </small>
       </div>
-    </div>
     </div>
     <script src="src/app.js"></script>
   </body>
