@@ -47,7 +47,6 @@ body {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #0000;
 }
 
 .weather-forecast-date {
@@ -90,4 +89,8 @@ li {
 
 li:first-letter {
   text-transform: capitalize;
+}
+
+.float-left {
+  float: left;
 }
