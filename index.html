@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    "
+
     <link rel="stylesheet" href="src/style.css" />
     <title>hello weather!</title>
   </head>
@@ -21,7 +21,7 @@
         <div class="weather-app">
           <form id="search-form" class="mb-4">
             <div class="row">
-              <div class="col-9">
+              <div class="col-6">
                 <input
                   type="search"
                   placeholder="Type a city.."
@@ -30,51 +30,54 @@
                 />
               </div>
 
-              <div class="col-3">
-                <input
+              <div
+                style="text-align: right"
+                class="col-6 justify-content-center"
+              >
+                <img src="" width="50" alt="Cloudy" id="icon" />
+                <span id="date"></span>
+                <!-- <input
                   type="submit"
                   value="Search"
-                  class="btn btn-primary w-100"
-                />
+                  class="btn btn-light w-100"
+                /> -->
               </div>
             </div>
           </form>
 
           <div class="overview">
             <h1 id="city"></h1>
+
+            <p class="weather-temperature">
+              <strong id="temperature"></strong>
+              <span class="units"> °C </span>
+            </p>
+
             <ul>
-              <li id="date">Last updated at <span id="date"></span></li>
               <li id="description"></li>
+
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span>km/h</li>
             </ul>
           </div>
           <div class="row">
             <div class="col-6">
               <div class="clearfix weather-temperature">
-                <img src="" alt="Cloudy" id="icon" class="float-left" />
-                <div class="float-left">
-                  <strong id="temperature"></strong>
-                  <span class="units">°C</span>
-                </div>
+                <div class="float-left"></div>
               </div>
             </div>
 
-            <div class="col-6">
-              <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span>km/h</li>
-              </ul>
-            </div>
+            <div class="col-6"></div>
           </div>
           <div class="weather-forecast" id="forecast"></div>
-
-          <small>
-            <a href="https://github.com/katpol/hello-weather" target="_blank"
-              >Open-source code, by polmanova</a
-            >
-          </small>
         </div>
       </div>
     </div>
     <script src="src/app.js"></script>
+    <small style="text-align: center">
+      <a href="https://github.com/katpol/hello-weather" target="_blank"
+        >Open-source code, by polmanova</a
+      >
+    </small>
   </body>
 </html>
