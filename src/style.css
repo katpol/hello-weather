@@ -7,7 +7,7 @@ body {
   background: rgba(255, 255, 255, 255);
   padding: 20px;
   border: 1px solid #dad8dd;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .weather-app-wrapper {
@@ -62,7 +62,7 @@ body {
 }
 
 h1 {
-  font-family: "Roboto", medium 500 italic;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   color: #eb6c4b;
   font-size: 50px;
