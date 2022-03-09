@@ -1,15 +1,10 @@
 body {
   font-family: arial, sans-serif;
-  background-color: #eee;
+  background-color: #c8cfd6;
 }
 
 background {
-  background: linear-gradient(
-    90deg,
-    rgba(213, 213, 213, 1) 0%,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background-color: #c8cfd6;
 }
 
 button {
@@ -18,6 +13,10 @@ button {
   background: #eb6c4b;
   color: #fff;
   padding: 10px 20px;
+}
+
+a {
+  color: #eb6c4b;
 }
 
 .weather-app {
@@ -39,7 +38,7 @@ button {
 
 .weather-temperature strong {
   color: rgb(33, 33, 33);
-  font-size: 55px;
+  font-size: 50px;
   line-height: 1;
   font-weight: 400px;
 }
@@ -79,7 +78,7 @@ button {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: Pacifico, sans-serif;
   text-align: center;
   color: #eb6c4b;
   font-size: 50px;
