@@ -67,26 +67,22 @@
                 style="text-align: right"
                 class="col-6 justify-content-center"
               >
-                <img src="" width="50" alt="Cloudy" id="icon" />
-                <span id="date"></span>
-                <!-- <input
-                  type="submit"
-                  value="Search"
-                  class="btn btn-light w-100"
-                /> -->
+                <img class="hwicon" src="src/helloweather5.svg" width="210" />
               </div>
             </div>
           </form>
 
           <div class="overview">
             <h1 id="city"></h1>
-
             <p class="weather-temperature">
+              <img src="" width="50" alt="Cloudy" id="icon" />
+
               <strong id="temperature"></strong>
               <span class="units"> °C </span>
             </p>
 
-            <ul>
+            <ul id="weatherdetails">
+              <li id="date"></li>
               <li id="description"></li>
 
               <li>Humidity: <span id="humidity"></span>%</li>

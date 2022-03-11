@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EB6C4B;}
+	.st1{fill:none;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Pacifico-Regular';}
+	.st4{font-size:143px;}
+	.st5{letter-spacing:4;}
+</style>
+<polygon class="st0" points="468.7,653 287.6,757.1 363.1,598.1 "/>
+<g>
+	<ellipse class="st0" cx="639.5" cy="468" rx="359.5" ry="284"/>
+</g>
+<rect x="379.4" y="295.6" class="st1" width="725.6" height="560.4"/>
+<text transform="matrix(1 0 0 1 379.4116 430.0654)"><tspan x="0" y="0" class="st2 st3 st4 st5">hello</tspan><tspan x="0" y="171.6" class="st2 st3 st4 st5">weather!</tspan></text>
+</svg>

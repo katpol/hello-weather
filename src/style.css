@@ -19,20 +19,28 @@ a {
   color: #eb6c4b;
 }
 
+.hwicon {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
 .weather-app {
   background: rgba(255, 255, 255, 255);
   padding: 20px;
   border: 1px solid #dad8dd;
   border-radius: 15px;
+  position: relative;
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
-  margin: 30px auto 5px auto;
+  max-width: 700px;
+  margin: 70px auto 5px auto;
 }
 
 .overview {
   margin-bottom: 30px;
+  margin-left: 50px;
   text-align: center;
 }
 
@@ -59,7 +67,7 @@ a {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -81,11 +89,11 @@ h1 {
   font-family: Pacifico, sans-serif;
   text-align: center;
   color: #eb6c4b;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: 100;
   line-height: 28px;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-top: 110px;
 }
 
 ul {
@@ -132,4 +140,23 @@ li:first-letter {
   position: absolute;
   top: 3px;
   right: -50px;
+}
+
+#weatherdetails {
+  position: absolute;
+  left: 35px;
+  top: 180px;
+  text-align: left;
+}
+
+#dateposition {
+  position: absolute;
+  right: 25px;
+  text-align: center;
+  font-size: 16px;
+  top: 159px;
+}
+
+#icon {
+  vertical-align: bottom;
 }
