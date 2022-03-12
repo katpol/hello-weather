@@ -34,7 +34,7 @@ a {
 }
 
 .weather-app-wrapper {
-  max-width: 700px;
+  min-width: 800px;
   margin: 70px auto 5px auto;
 }
 
@@ -89,7 +89,7 @@ h1 {
   font-family: Pacifico, sans-serif;
   text-align: center;
   color: #eb6c4b;
-  font-size: 55px;
+  font-size: 57px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 40px;
